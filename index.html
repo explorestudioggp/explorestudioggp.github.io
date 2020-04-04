@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Studio</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body onload="preload()">
+    <div class="loader-wrapper" id="loader">
+        <div class="loader"></div>
+    </div>
+    <img src="./assets/top.png" alt="" onclick="topFunction()" id="myBtn" title="Go to top">
+    <!-- landing page -->
+    <div id="mainContent" id="home">
+        <div class="banner">
+            <header class="topnav" id="myTopnav">
+                <div class="logo-div">
+                    <a href="#" class="logo">Explore Studio</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="./assets/toggle.png"
+                            alt=""></a>
+                </div>
+                <div class="toggle" id="toggle">
+                    <ul>
+                        <a href="#home">
+                            <li>Home</li>
+                        </a>
+                        <a href=" #about">
+                            <li>About</li>
+                        </a>
+                        <a href="#service">
+                            <li>Services</li>
+                        </a>
+                        <a href="#gallery">
+                            <li>Gallery</li>
+                        </a>
+                        <a href="#contact">
+                            <li>Contact Us</li>
+                        </a>
+                    </ul>
+                </div>
+            </header>
+            <img src="./assets/landingpage.png" alt="">
+            <div class="content">
+                <h2>Frame Your Life</h2>
+                <p>
+                    <!-- "There are no rules for good photographs, there are only good photographs." -->
+                    The value of the image is determined by its color, its uniqueness, charm, and also practical
+                    meaning. If
+                    the power of the photograph is so great, that it can make people think over something, or compare or
+                    connect themselves with the objects depicted on it, it is regarded as a very valuable thing. We need
+                    to
+                    remember, that every image has a story to tell, and it shouldn’t be neglected.
+                </p>
+            </div>
+        </div>
+
+        <!-- about us -->
+        <section class="about" id="about">
+            <div class="contentBx">
+                <h2 class="heading" style="color: black;">About Us</h2>
+                <img src="./assets/logo.png" class="logo" alt="">
+                <p class="text" style="color: black;text-align:justify">
+                    &emsp;&emsp;We are the team of photographers, we don't just capture the image, we capture images
+                    that tell
+                    story
+                    and
+                    will have a good memories so that in future you can see those memories forever from the photos. We
+                    have
+                    a excellent and friendly Team of photographers who have more than 3 years of experience in this
+                    filed.
+                </p>
+                <h4>Follow Us</h4>
+                <hr>
+                <div class="social">
+                    <a href="https://www.youtube.com/channel/UCQIe_DE-3SW0ARuuVD_B-bw" target="_blank"><img
+                            src="./assets/youtube.png" alt="">&nbsp; / explorestudio</a>
+                    <a href="https://www.instagram.com/explorestudioggp/" target="_blank"><img
+                            src="./assets/instagramcolor.png" alt="">&nbsp; / explorestudioggp</a>
+                </div>
+            </div>
+            <div class="imgBx"></div>
+        </section>
+
+        <!-- services -->
+        <section class="services" id="service">
+            <h2 class="heading">Our Services</h2>
+            <p class="text">We have expert photographer who have good skills in photography and can handle all the
+                equipment
+                and also have knowledge about photoshop.</p>
+            <div class="container">
+                <div class="serviceBx">
+                    <div>
+                        <img src="./assets/icons/product.png" alt="">
+                        <h2>Product photography</h2>
+                    </div>
+                </div>
+                <div class="serviceBx">
+                    <div>
+                        <img src="./assets/icons/candy.png" alt="">
+                        <h2>Candi photography</h2>
+                    </div>
+                </div>
+                <div class="serviceBx">
+                    <div>
+                        <img src="./assets/icons/food.png" alt="">
+                        <h2>Food photography</h2>
+                    </div>
+                </div>
+                <div class="serviceBx">
+                    <div>
+                        <img src="./assets/icons/event.png" alt="">
+                        <h2>All celebration events</h2>
+                    </div>
+                </div>
+                <div class="serviceBx">
+                    <div>
+                        <img src="./assets/icons/cooperate.png" alt="">
+                        <h2>Corporate event</h2>
+                    </div>
+                </div>
+                <div class="serviceBx">
+                    <div>
+                        <img src="./assets/icons/prewedding.png" alt="">
+                        <h2>Pre wedding shoot</h2>
+                    </div>
+                </div>
+                <div class="serviceBx">
+                    <div>
+                        <img src="./assets/icons/maternity.png" alt="">
+                        <h2>Maternity shoot</h2>
+                    </div>
+                </div>
+                <div class="serviceBx">
+                    <div>
+                        <img src="./assets/icons/baby.png" alt="">
+                        <h2>Baby shoot</h2>
+                    </div>
+                </div>
+                <div class="serviceBx">
+                    <div>
+                        <img src="./assets/icons/portrait.png" alt="">
+                        <h2>Portrait</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- videography -->
+        <section class="technology">
+            <div class="contentBx">
+                <h2 class="heading">We also provide Videography</h2>
+                <p class="text">
+                    We have expert photographer & videographers who have good skills in videography and can handle all
+                    the
+                    equipment and
+                    also have knowledge about premiere pro & sony vegas pro.
+                </p>
+                <div class="video-container">
+                    <video autoplay loop muted style="width: 100%;">
+                        <source src="./assets/video/backvideo.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- gallery -->
+        <section class="gallery" id="gallery">
+            <h2 class="heading">Best Of My Work</h2>
+
+            <div id="photos" class="photo">
+                <img src="./assets/gallery/1.jpg" alt="">
+                <img src="./assets/gallery/2.jpg" alt="">
+                <img src="./assets/gallery/3.jpg" alt="">
+                <img src="./assets/gallery/4.jpg" alt="">
+                <img src="./assets/gallery/6.jpg" alt="">
+                <img src="./assets/gallery/7.jpg" alt="">
+                <img src="./assets/gallery/8.jpg" alt="">
+                <img src="./assets/gallery/9.jpg" alt="">
+                <img src="./assets/gallery/10.jpg" alt="">
+                <img src="./assets/gallery/11.jpg" alt="">
+                <img src="./assets/gallery/12.jpg" alt="">
+                <img src="./assets/gallery/13.jpg" alt="">
+                <img src="./assets/gallery/14.jpg" alt="">
+                <img src="./assets/gallery/15.jpg" alt="">
+                <img src="./assets/gallery/16.jpg" alt="">
+                <img src="./assets/gallery/17.jpg" alt="">
+                <img src="./assets/gallery/18.jpg" alt="">
+                <img src="./assets/gallery/19.jpg" alt="">
+                <img src="./assets/gallery/20.jpg" alt="">
+                <img src="./assets/gallery/21.jpg" alt="">
+                <img src="./assets/gallery/22.jpg" alt="">
+                <img src="./assets/gallery/23.jpg" alt="">
+                <img src="./assets/gallery/24.jpg" alt="">
+                <img src="./assets/gallery/25.jpg" alt="">
+                <img src="./assets/gallery/26.jpg" alt="">
+                <img src="./assets/gallery/27.jpg" alt="">
+                <img src="./assets/gallery/28.jpg" alt="">
+                <img src="./assets/gallery/29.jpg" alt="">
+                <img src="./assets/gallery/30.jpg" alt="">
+                <img src="./assets/gallery/31.jpg" alt="">
+                <img src="./assets/gallery/32.jpg" alt="">
+                <img src="./assets/gallery/33.jpg" alt="">
+                <img src="./assets/gallery/34.jpg" alt="">
+                <img src="./assets/gallery/35.jpg" alt="">
+                <img src="./assets/gallery/36.jpg" alt="">
+                <img src="./assets/gallery/37.jpg" alt="">
+                <img src="./assets/gallery/38.jpg" alt="">
+                <img src="./assets/gallery/39.jpg" alt="">
+                <img src="./assets/gallery/40.jpg" alt="">
+                <img src="./assets/gallery/41.jpg" alt="">
+                <img src="./assets/gallery/42.jpg" alt="">
+                <img src="./assets/gallery/43.jpg" alt="">
+                <img src="./assets/gallery/44.jpg" alt="">
+                <img src="./assets/gallery/45.jpg" alt="">
+                <img src="./assets/gallery/46.jpg" alt="">
+                <img src="./assets/gallery/47.jpg" alt="">
+                <img src="./assets/gallery/48.jpg" alt="">
+                <img src="./assets/gallery/49.jpg" alt="">
+                <img src="./assets/gallery/50.jpg" alt="">
+                <img src="./assets/gallery/51.jpg" alt="">
+                <img src="./assets/gallery/52.jpg" alt="">
+                <img src="./assets/gallery/53.jpg" alt="">
+            </div>
+            <div class="yet" id="show" onclick="showAll()">
+                Show All
+            </div>
+            <div class="yet comingsoon">
+                More stuff comming soon
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact Us</h2>
+        </section>
+        <section class="about about2">
+            <div class="contentBx redbg">
+                <form class="form" method="POST">
+                    <div class="inputBx">
+                        <input type="text" placeholder="Full Name" id="name">
+                    </div>
+                    <div class="inputBx">
+                        <input type="email" placeholder="Email Address" id="email">
+                    </div>
+                    <div class="inputBx">
+                        <input type="text" placeholder="Mobile Number" id="mobile">
+                    </div>
+                    <div class="inputBx">
+                        <textarea placeholder="Write your message here" id="message"></textarea>
+                    </div>
+                    <div class="inputBx">
+                        <input type="button" value="Send" onclick="sendEmail()">
+                    </div>
+                </form>
+                <div id="error"></div>
+            </div>
+            <div class="imgBx2"></div>
+        </section>
+
+        <!-- footer -->
+        <section class="footer">
+            <p class="text">Design & Developed By <b><i>Shubham Gujarathi</i></b></p>
+            <ul>
+                <li>Follow on :</li>
+                <li><a href="https://www.instagram.com/gujarathi_shubham/" target="_blank"><img
+                            src="./assets/instagram.png" alt=""></a></li>
+                <li><a href="https://www.fiverr.com/share/NNxX3o" target="_blank"><img src="./assets/fiverr.png"
+                            alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/shubham-gujarathi-721020139/" target="_blank"><img
+                            src="./assets/linkedin.png" alt=""></a></li>
+            </ul>
+        </section>
+    </div>
+
+
+    <!-- adding js -->
+    <script src="./js/smtp.js"></script>
+    <script src="./js/main.min.js"></script>
+
+</body>
+
+</html>
